@@ -49,6 +49,23 @@ Reporters: (optional, choose only one)
 Result formats: (optional, choose one or more)
   -xml <filename>        : output results to xUnit.net v2 style XML file
 ```
+
+This project can be run with:
+```
+dnx test -verbose
+xUnit.net DNX Runner (32-bit DNX 4.5.1)
+  Discovering: TestPatterns
+  Discovered:  TestPatterns
+  Starting:    TestPatterns
+    TestPatterns.ClassFixtureTests.ConnectionIsEstablished
+    TestPatterns.ConnectionTests.ConnectionIsEstablished
+    TestPatterns.ClassFixtureTests.FooUserWasInserted
+    TestPatterns.InsertTests.FooUserWasInserted
+  Finished:    TestPatterns
+=== TEST EXECUTION SUMMARY ===
+   TestPatterns  Total: 4, Errors: 0, Failed: 0, Skipped: 0, Time: 0.227s
+```
+
 ## Author
 
 @peterblazejewicz
