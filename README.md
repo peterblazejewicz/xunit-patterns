@@ -2,6 +2,8 @@
 
 Tests patterns taken from [xUnit](https://xunit.github.io/) [documentation](https://xunit.github.io/docs/) and elsewhere.
 
+Note that this tests requires local installation of SQLite database.
+
 ## xUnit command line usage
 
 Hard to find, but call `dnx test -?`
