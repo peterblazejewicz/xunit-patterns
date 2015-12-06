@@ -42,17 +42,6 @@ namespace TestPatterns
             }
         }
 
-        [Fact(DisplayName = "Connection is not null")]
-        public void TestConnectionIsNotNull()
-        {
-            Assert.NotNull(connection);
-        }
-
-        [Fact(DisplayName = "Connection is open")]
-        public void TestConnectionIsOopen()
-        {
-            Assert.True(connection.State == ConnectionState.Open);
-        }
         public void Dispose()
         {
             if (connection != null)
